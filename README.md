@@ -1,13 +1,13 @@
 # Termux
 
-Termux is an Android terminal emulator and a linux environment. It can be used to run most
+Termux is an Android terminal emulator and a Linux environment. It can be used to run most
 Linux software without root. This guide will help at setting up and configuring Termux.
 
 ## Installation
 
 1. Download [Termux](https://termux.com/). (Installing `Termux-API` is also recommended.)
-2. Update packages. `$ apt update && apt upgrade`[^1]
-3. Install Termux API. `$ apt install termux-api`[^1]
+2. Update packages. `$ apt update -y && apt upgrade -y`[^1]
+3. Install Termux API. `$ apt install -y termux-api`[^1]
 4. Configure access to external storage. `$ termux-setup-storage`[^2]
 
 ## Recommended Customizations
