@@ -7,7 +7,8 @@ Linux software without root. This guide will help at setting up and configuring 
 
 1. Download [Termux](https://termux.com/). (Installing `Termux-API` is also recommended.)
 2. Update packages. `$ apt update -y && apt upgrade -y`[^1]
-3. Install Termux API. `$ apt install -y termux-api`[^1]
+3. Restart Termux and perform another update. `$ apt update -y`
+3. If you also installed Termux-API, install Termux API. `$ apt install -y termux-api`[^1]
 4. Configure access to external storage. `$ termux-setup-storage`[^2]
 
 ## Recommended Customizations
