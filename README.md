@@ -15,6 +15,7 @@ Linux software without root. This guide will help at setting up and configuring 
 
 - [zsh](https://github.com/SetupGuides/ZSH)
 - [Neovim](https://github.com/SetupGuides/Neovim)
+- [Catppuccin Theme](https://github.com/catppuccin/termux)
 
 ## Enabling SSH Remote Connection
 
